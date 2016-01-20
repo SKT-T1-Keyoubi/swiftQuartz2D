@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		404079E71C4F5868007EAA23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404079E61C4F5868007EAA23 /* AppDelegate.swift */; };
+		404079E91C4F5868007EAA23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404079E81C4F5868007EAA23 /* ViewController.swift */; };
+		404079EC1C4F5868007EAA23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404079EA1C4F5868007EAA23 /* Main.storyboard */; };
+		404079EE1C4F5868007EAA23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404079ED1C4F5868007EAA23 /* Assets.xcassets */; };
+		404079F11C4F5868007EAA23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404079EF1C4F5868007EAA23 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		404079E31C4F5868007EAA23 /* swiftQuartz2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftQuartz2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		404079E61C4F5868007EAA23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		404079E81C4F5868007EAA23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		404079EB1C4F5868007EAA23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		404079ED1C4F5868007EAA23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		404079F01C4F5868007EAA23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		404079F21C4F5868007EAA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		404079E01C4F5868007EAA23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		404079DA1C4F5868007EAA23 = {
+			isa = PBXGroup;
+			children = (
+				404079E51C4F5868007EAA23 /* swiftQuartz2D */,
+				404079E41C4F5868007EAA23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		404079E41C4F5868007EAA23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				404079E31C4F5868007EAA23 /* swiftQuartz2D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		404079E51C4F5868007EAA23 /* swiftQuartz2D */ = {
+			isa = PBXGroup;
+			children = (
+				404079E61C4F5868007EAA23 /* AppDelegate.swift */,
+				404079E81C4F5868007EAA23 /* ViewController.swift */,
+				404079EA1C4F5868007EAA23 /* Main.storyboard */,
+				404079ED1C4F5868007EAA23 /* Assets.xcassets */,
+				404079EF1C4F5868007EAA23 /* LaunchScreen.storyboard */,
+				404079F21C4F5868007EAA23 /* Info.plist */,
+			);
+			path = swiftQuartz2D;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		404079E21C4F5868007EAA23 /* swiftQuartz2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404079F51C4F5868007EAA23 /* Build configuration list for PBXNativeTarget "swiftQuartz2D" */;
+			buildPhases = (
+				404079DF1C4F5868007EAA23 /* Sources */,
+				404079E01C4F5868007EAA23 /* Frameworks */,
+				404079E11C4F5868007EAA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftQuartz2D;
+			productName = swiftQuartz2D;
+			productReference = 404079E31C4F5868007EAA23 /* swiftQuartz2D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		404079DB1C4F5868007EAA23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LoveQiuYi;
+				TargetAttributes = {
+					404079E21C4F5868007EAA23 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3YFQ27M4GA;
+					};
+				};
+			};
+			buildConfigurationList = 404079DE1C4F5868007EAA23 /* Build configuration list for PBXProject "swiftQuartz2D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 404079DA1C4F5868007EAA23;
+			productRefGroup = 404079E41C4F5868007EAA23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				404079E21C4F5868007EAA23 /* swiftQuartz2D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		404079E11C4F5868007EAA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404079F11C4F5868007EAA23 /* LaunchScreen.storyboard in Resources */,
+				404079EE1C4F5868007EAA23 /* Assets.xcassets in Resources */,
+				404079EC1C4F5868007EAA23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		404079DF1C4F5868007EAA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404079E91C4F5868007EAA23 /* ViewController.swift in Sources */,
+				404079E71C4F5868007EAA23 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		404079EA1C4F5868007EAA23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404079EB1C4F5868007EAA23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		404079EF1C4F5868007EAA23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404079F01C4F5868007EAA23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		404079F31C4F5868007EAA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		404079F41C4F5868007EAA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		404079F61C4F5868007EAA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swiftQuartz2D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxin.swiftQuartz2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		404079F71C4F5868007EAA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swiftQuartz2D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxin.swiftQuartz2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		404079DE1C4F5868007EAA23 /* Build configuration list for PBXProject "swiftQuartz2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404079F31C4F5868007EAA23 /* Debug */,
+				404079F41C4F5868007EAA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404079F51C4F5868007EAA23 /* Build configuration list for PBXNativeTarget "swiftQuartz2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404079F61C4F5868007EAA23 /* Debug */,
+				404079F71C4F5868007EAA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 404079DB1C4F5868007EAA23 /* Project object */;
+}
